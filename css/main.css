@@ -1,0 +1,16 @@
+.container{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;;
+}
+
+.nav{
+  width: fit-content;
+}
+.social-media-side{
+  width: 30%;
+  height: auto;
+  border: 2px solid black;
+}
