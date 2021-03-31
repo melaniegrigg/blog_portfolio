@@ -1,16 +1,39 @@
-.container{
+
+/* Main body */
+body {
+  font-family: 'Lato', sans-serif; 
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #6e6e6b;
+  margin: 50px;
+  padding: 10px;
+}
+
+/* Head banner */
+.container {
   display:flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border: 2px solid black;;
+  width: 100%;
+  height: 1000px;
+  background: url('../img/hero.jpg');
+  background-size: cover;
+  border: 2px solid rgb(51, 47, 47);
 }
 
-.nav{
-  width: fit-content;
+nav ul li a {
+  display: inline-flexbox;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #081525;
+  text-align: center;
+  text-decoration: none;
+  margin-inline-start: 50px;
+  margin-inline-end: 50px;
 }
-.social-media-side{
-  width: 30%;
-  height: auto;
-  border: 2px solid black;
+/* Font */
+#title{
+  font-size: 50px;
+  justify-content: center;
 }
