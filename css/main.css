@@ -55,6 +55,10 @@ nav ul li a {
   font-size: 50px;
   justify-content: center;
 }
+/* Main Content */
+.main {
+  grid-template-rows: 1020px;
+}
 
 footer {
   display: grid;
