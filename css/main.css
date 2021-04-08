@@ -59,6 +59,7 @@ nav ul li a {
 footer {
   display: grid;
   grid-template-columns: 30px 30px;
+  grid-gap: 25px;
   align-items: center;
   justify-content: center;
   background-color: rgb(210, 241, 231);
